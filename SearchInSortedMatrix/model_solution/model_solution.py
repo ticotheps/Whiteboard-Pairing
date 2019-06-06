@@ -36,6 +36,8 @@ print(search_sorted_matrix(matrix, 7))    # should print (0, 2)
 #  4th pass: matrix[0][2] = 7; so return (row, col) => return (0, 2)
 
 print(search_sorted_matrix(matrix, 999))  # should print (0, 5)
+#  1st pass: matrix[0][5] = 999; so return (row, col) => return (0, 5)
+
 print(search_sorted_matrix(matrix, 1001)) # should print (1, 5)
 print(search_sorted_matrix(matrix, 104))  # should print (4, 3)
 print(search_sorted_matrix(matrix, 1010)) # should print (-1, -1)
