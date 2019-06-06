@@ -51,4 +51,10 @@ print(search_sorted_matrix(matrix, 104))  # should print (4, 3)
 #  6th pass: matrix[4][3] = 104; so return (row, col) => return (4, 3)
 
 print(search_sorted_matrix(matrix, 1010)) # should print (-1, -1)
+#  1st pass: matrix[0][5] = 999 < 1010; so row += 1 => 1, loop thru the next row
+#  2nd pass: matrix[1][5] = 1001 < 1010; so row += 1 => 2, loop thru the next row
+#  3rd pass: matrix[2][5] = 1002 < 1010; so row += 1 => 3, loop thru the next row
+#  4th pass: matrix[3][5] = 1003 < 1010; so row += 1 => 4, loop thru the next row
+#  5th pass: matrix[4][5] = 1009 < 1010; so row += 1 => 5; row == len(matrix) => 
+#            exit while loop, return (-1, -1)
 
