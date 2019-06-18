@@ -18,7 +18,7 @@ def checkBalanced(rootNode):
             return 0
         return 1 + max(maxDepth(node.left), maxDepth(node.right))
     
-    return maxDepth(rootNode) - minDepth(rootNode) == 0;
+    return maxDepth(rootNode) - minDepth(rootNode) == 0
 
 # Some console.log tests
 class BinaryTreeNode:
