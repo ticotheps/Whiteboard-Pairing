@@ -9,6 +9,7 @@
 #     a) If it is not, add it and set value to 1.
 #     b) If it is, increment value by 1.
 # 3) Traverse through set() to find max value of all keys.
+#     a) If there is a tie between multiple keys of the set
 # 
 # 4) Return key of max value.
 
