@@ -4,5 +4,6 @@
     "titleBar.inactiveForeground": "#000000CC",
     "titleBar.activeBackground": "#FFC600",
     "titleBar.inactiveBackground": "#FFC600CC"
-  }
+  },
+  "python.pythonPath": "/Users/ticothep/.local/share/virtualenvs/whiteboard-pairing-zT87Cjea/bin/python"
 }
